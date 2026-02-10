@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=prevNextTenBrushes
+X-Python-2-Compatible=false
+Name=Ten Brushes Prev & Next 
+Comment=Prev Next for Ten Brushes
