@@ -35,7 +35,7 @@ class PREV_NEXT_BRUSH(Extension):
         
         
         reloadAction = window.createAction(
-            "reloadBrushes", "Ten Brushes Prev & Next Reload",
+            "reloadBrushes", "Ten Brushes Prev && Next Reload",
             "Tools/Scripts/" + MENUTEXT
         )
         reloadAction.triggered.connect(self.reloadBrushes)
@@ -136,3 +136,4 @@ class PREV_NEXT_BRUSH(Extension):
 
 
 Krita.instance().addExtension(PREV_NEXT_BRUSH(Krita.instance()))
+
